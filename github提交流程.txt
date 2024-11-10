@@ -1,0 +1,13 @@
+cd /path/to/your/project
+git init
+git remote add origin https://github.com/<USERNAME>/<REPOSITORY>.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+
+添加
+git status
+git add newfile.txt
+git commit -m "添加新文件 newfile.txt"
+git push origin master
